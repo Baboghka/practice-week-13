@@ -1,0 +1,33 @@
+
+.App{
+  text-align: center;
+}
+
+.login-form{
+margin-top: 100px;
+border:1px solid black;
+padding:20px;
+display:inline-block;
+
+}
+.login-title{
+  border-bottom:1px solid black;
+}
+.form-group{
+  margin-bottom:10px ;
+}
+.navbar-list{
+display:flex;
+list-style-type: none;
+justify-content: center;
+
+}
+
+.navbar-item{
+  margin:10 px;
+
+}
+.navbar-link{
+  text-decoration: none;
+  color:black
+}
