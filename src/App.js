@@ -1,16 +1,17 @@
 import React from 'react';
 import Navigation from './Navigation';
-import './App.css';
+import './App.css'; 
 
-const App = () => {
-  return (
-    <div className='App'>
-      <Navigation />
-      
-
-    </div>
-
+import LoginForm from './loginForm';
+ export default function App() {
+   return ( 
+    <>
+      <div className='App'>
+        <div className='container'></div>
+        <Navigation />
+        <LoginForm />
+    
+      </div>
+    </>
   );
-
 };
-export default App;
